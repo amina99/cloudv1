@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 11
+Implementation-Title: amsv1
+Implementation-Version: v1-dev
+Created-By: Maven Integration for Eclipse
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+ <head>
+ <meta charset="UTF-8">
+<title>Insert title here</title>
+  <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+
+</head>
+<body>
+<h2 aligne="center"> La vue acceuil</h2>
+<ul>
+<p th:text= "${msg}">Votre framework</p>
+
+<li th:text="${ec} ">Nom de votre ecole</li>
+<li th:text="${form}">Intutile de la formation</li>
+</ul>
+
+<ul th:each ="name: ${names}">
+<li th:text= "${name}">..</li>
+</ul>
+</body>
+</html>
